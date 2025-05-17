@@ -1,0 +1,44 @@
+{
+  "basicInfo": {
+    "name": "mingxi",
+    "phone": "",
+    "email": "tan",
+    "location": "",
+    "interest": "ds",
+    "website": ""
+  },
+  "skills": [],
+  "workExperience": [
+    {
+      "projectName": "",
+      "city": "",
+      "position": "",
+      "department": "",
+      "startDate": "",
+      "endDate": "",
+      "description": ""
+    }
+  ],
+  "projectExperience": [
+    {
+      "projectName": "",
+      "city": "",
+      "position": "",
+      "department": "",
+      "startDate": "",
+      "endDate": "",
+      "description": ""
+    }
+  ],
+  "education": [
+    {
+      "schoolName": "",
+      "city": "",
+      "degree": "",
+      "major": "",
+      "startDate": "",
+      "endDate": "",
+      "description": ""
+    }
+  ]
+}

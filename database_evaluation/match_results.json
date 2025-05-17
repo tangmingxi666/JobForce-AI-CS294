@@ -1,0 +1,17 @@
+[
+  {
+    "job_title": "Software Engineer",
+    "job_description": "A Backend Developer is tasked with building and maintaining the server-side logic and database infrastructure of web applications. They work on the core functionality, data storage, and server communication to ensure the application runs smoothly and efficiently.",
+    "score_percent": 5.51
+  },
+  {
+    "job_title": "QA Analyst",
+    "job_description": "Automation Test Engineers develop automated test scripts and frameworks to streamline and enhance the testing process. They focus on automating repetitive tests to improve efficiency and maintain test consistency.",
+    "score_percent": 2.72
+  },
+  {
+    "job_title": "Quality Assurance Analyst",
+    "job_description": "Test Automation Engineers automate testing processes using scripts and tools. They design and maintain automated test suites to streamline testing efforts, improve efficiency, and enhance software quality.",
+    "score_percent": 0.8
+  }
+]

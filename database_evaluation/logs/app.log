@@ -1,0 +1,6 @@
+2025-05-10 18:07:46,182 [INFO] __main__: Loaded 10000 jobs, embedding dimension = 384
+2025-05-10 18:07:46,186 [INFO] __main__: Starting Flask server on port 5000
+2025-05-10 18:39:04,746 [INFO] __main__: Loaded 10000 jobs, embedding_dim=384
+2025-05-10 18:39:04,748 [INFO] __main__: Starting Flask on port 5000
+2025-05-10 18:40:58,484 [INFO] __main__: Loaded 10000 jobs, embedding_dim=384
+2025-05-10 18:40:58,485 [INFO] __main__: Starting Flask on port 5000

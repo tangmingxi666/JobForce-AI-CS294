@@ -1,0 +1,12 @@
+flask
+flask-cors
+pyngrok
+torch
+torchvision
+torchaudio
+sentence-transformers
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
