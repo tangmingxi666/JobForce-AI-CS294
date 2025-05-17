@@ -1,8 +1,36 @@
-# JobForce
+# JobForce.AI
 
-**JobForce** is an AI-powered resume optimization and job matching platform. Users can upload their resume, select target job positions, and the system will automatically generate tailored, position-specific resumes and downloadable PDFs using a multi-stage AI pipeline.
+*A Large-Language-Model career assistant for automated résumé optimization and personalized job matching*
 
----
+------
+
+## Abstract
+
+The job application landscape is especially challenging for students and job seekers with limited time and energy, who are often interested in multiple positions but must manually tailor their resumes for each opportunity. JobForce.AI addresses these challenges by introducing a unified, LLM-driven pipeline that automates resume optimization and job matching across diverse roles. The system parses user-uploaded resumes into structured data and retrieves representative job descriptions via semantic embedding from a curated database. Large language models then perform context-sensitive rewriting of each experience, ensuring professional articulation and relevance to each target position. A ranking mechanism, based on normalized cosine similarity scores, condenses the rewritten content into concise, focused resumes for every selected job. Finally, the optimized resumes are embedded and compared against real-time, user-filtered job postings to generate the top ten most relevant recommendations per target. A built-in evaluation module quantifies alignment improvements, while an intuitive web interface provides real-time feedback and one-click export. JobForce.AI streamlines the early phases of the job search, delivering scalable, personalized career assistance for candidates pursuing multiple career tracks.
+
+## Problem Statement
+
+The job application process is labor-intensive and fragmented, requiring candidates to manually tailor their resumes for each position. Generic feedback tools often fail to address the nuanced expectations of hiring managers, making it difficult for job seekers to professionalize their language, prioritize relevant experiences, and highlight transferable skills—especially when targeting multiple or cross-industry roles. While Large Language Models (LLMs) offer promise for automating resume refinement, key challenges remain in aligning content with job descriptions, preserving user authenticity, and objectively evaluating optimization quality.
+
+JobForce.AI leverages LLMs, vector embeddings, and a modular multi-agent architecture to automate résumé enhancement and evidence-based job recommendation, thereby improving both **effectiveness** (content quality) and **efficiency** (search latency).
+
+## System Overview
+
+![System Overview](system_overview.png)
+
+| Module                   | Functionality                                        | Key Techniques                                  |
+| ------------------------ | ---------------------------------------------------- | ----------------------------------------------- |     |
+| **JD Retrieval**         | Filter JDs by track; rank via hybrid keyword + SBERT | FAISS, cosine similarity                        |
+| **Agent1**  | Uses GPT-4o to rewrite and tailor the user's resume for each selected job description, ensuring alignment with role-specific requirements and professional language. | GPT-4o         |
+| **Agent2**  | Scores, ranks, and selects the most relevant experiences for each job, then generates a concise, customized Markdown resume for every target position.              | GPT-4o         |
+| **Agent3**  | Converts the tailored Markdown resumes to LaTeX and PDF, and evaluates the final output using LLM-based and semantic analysis to ensure quality and relevance.     | GPT-4o         |
+
+
+## Dataset
+
+- **GitHub JD Corpus** – ~3 k curated job-description JSONs spanning SDE, Data Science, Finance, Product, UX
+- **Live Job Feed** – continuous web-scraping (Indeed, LinkedIn, Lever) with daily refresh
+
 
 ## Folder Descriptions
 
@@ -26,7 +54,7 @@
 ---
 
 ## Quick Start Demo
-[![Watch the demo](https://img.youtube.com/vi/Odl5I4yek9w/0.jpg)](https://youtu.be/Odl5I4yek9w)
+[![Watch the demo](https://img.youtube.com/vi/2kmPeE6X_gQ/0.jpg)](https://youtu.be/2kmPeE6X_gQ)
 
 
 ### 1. Install Dependencies
@@ -52,39 +80,48 @@ npm run dev
 
 ### 3. Run the Demo
 
-1. Open [http://localhost:3000](http://localhost:3000) in your browser.
-2. Fill in your resume information and select target job positions.
-3. Click "Generate Resume" or "Finish" to trigger the backend pipeline.
+1. In your terminal, click the URL http://localhost:3000 to open the app
+2. Select target job positions and fill in your resume information.
+3. Click "Finish" to trigger the backend pipeline.
 4. On the preview page, download your AI-optimized, position-specific PDF resumes.
 
 ---
 
-## Requirements
+## Evaluation Protocol
 
-- **Python 3.8+**
-- **Node.js 14+**
-- **LaTeX distribution** (e.g., TinyTeX, TeX Live, with `pdflatex` support)
-- **OpenAI API Key** (if using GPT-4/3.5, set via environment variable or config)
+| Aspect             | Metric                               | Method                      |
+| ------------------ | ------------------------------------ | --------------------------- |
+| Résumé quality     | Keyword coverage; LLM-based rubric   | TF-IDF, GPT-4 judge         |
+| Matching stability | Consistency (same résumé → same *k*) | Repeated trials, Jaccard@10 |
+| Latency            | Module-level wall-clock (ms)         | Python `time.perf_counter`  |
 
----
 
-## Additional Notes
 
-- The backend pipeline consists of three stages (Agent1/2/3), which can be run independently or as a full pipeline.
-- All generated PDFs are saved in `frontend/public/customer_resumes/` for easy download via the frontend.
-- To customize job descriptions or resume templates, edit `Agent1/job_description/jobs.json` or files in `markdown2pdf/example/`.
+## Citation
 
----
+If this repository contributes to your research, please cite:
 
-## Contributor
-Mingxi Tang
-Yijia You
-Yufeng Yan
-Kaiwen Dou
+```bibtex
+@misc{jobforce2025,
+  title   = {JobForce.AI: LLM-powered Résumé Optimization and Job Matching},
+  author  = {You, Yiya and Dou, Kairan and Tang, Mingxi and Yan, Yufeng},
+  year    = {2025},
+  url     = {https://github.com/tangmingxi666/JobForce-AI-CS294}
+}
+```
+
+
+## Contributors
+- Mingxi Tang
+- Yijia You
+- Yufeng Yan
+- Kaiwen Dou
 ---
 
 ## Acknowledgements
 We thank the Berkeley Advanced LLM Agents MOOC faculty for guidance and the open-source communities behind OpenAI, LangChain, FAISS, and Pinecone.
+
+
 
 
 
