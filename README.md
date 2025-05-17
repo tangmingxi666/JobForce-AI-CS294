@@ -20,10 +20,10 @@ JobForce.AI leverages LLMs, vector embeddings, and a modular multi-agent archite
 
 | Module        | Functionality                                                                 | Key Techniques         |
 | ------------- | ----------------------------------------------------------------------------- | ---------------------- |
-| JD Retrieval  | Filter and rank job descriptions by keywords and semantic similarity          | FAISS, cosine similarity |
-| Agent1        | Rewrite and tailor resume for each selected job using GPT-4o                  | GPT-4o                 |
-| Agent2        | Select and rank relevant experiences, generate Markdown resume                | GPT-4o                 |
-| Agent3        | Convert Markdown to LaTeX/PDF, evaluate with LLM and semantic analysis        | GPT-4o                 |
+| JD Retrieval  | Filter and rank job descriptions by keywords and semantic similarity          | FAISS, SentenceTransformer |
+| Agent1        | Rewrite and tailor resume for each selected job using Prompt Engineering, Few Shot Training | OpenAI GPT API, Prompt Engineering |
+| Agent2        | Select and rank relevant experiences, generate Markdown resume                | SentenceTransformer, FAISS, Markdown Generation |
+| Agent3        | Convert Markdown to LaTeX/PDF, evaluate with LLM and semantic analysis        | LaTeX, pdflatex, OpenAI GPT API, Semantic Analysis |
 
 
 ## Dataset
