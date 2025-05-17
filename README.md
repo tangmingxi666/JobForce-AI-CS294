@@ -113,9 +113,9 @@ If this repository contributes to your research, please cite:
 
 ## Contributors
 - Mingxi Tang
-- Yijia You
+- Yiya You
 - Yufeng Yan
-- Kaiwen Dou
+- Kairan Dou
 ---
 
 ## Acknowledgements
