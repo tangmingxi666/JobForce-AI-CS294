@@ -1,0 +1,82 @@
+{
+   "basicInfo": {
+    "name": "Alexander Potter",
+    "phone": "5103232938",
+    "email": "Alex@gmail.com",
+    "location": "Berkeley",
+    "interest": "consulting",
+    "website": ""
+  },
+  "skills": [
+      "Strategic Thinking",
+      "Data Analysis",
+      "Problem Solving",
+      "Scientific Communication",
+      "Healthcare Market Research",
+      "Team Collaboration"
+    ],
+  "workExperience": [
+      {
+        "projectName": "Pfizer Pharmaceutical Sales Internship",
+        "city": "Shanghai",
+        "position": "Sales Representative Intern",
+        "department": "Sales and Marketing",
+        "startDate": "2023-07",
+        "endDate": "2023-09",
+        "description": "Conducted competitor analysis and supported sales strategy development for cardiovascular and vaccine products. Collaborated with cross-functional teams to analyze market data and deliver insights to improve regional outreach efforts."
+      },
+      {
+        "projectName": "McKinsey Life Sciences Consulting Project",
+        "city": "Beijing",
+        "position": "Consulting Intern",
+        "department": "Healthcare and Life Sciences",
+        "startDate": "2023-01",
+        "endDate": "2023-03",
+        "description": "Contributed to go-to-market strategy for a biotech client entering the oncology sector. Conducted market sizing, policy analysis, and stakeholder interviews, and synthesized findings into actionable recommendations for the client."
+      },
+
+      {
+        "projectName": "Clinical Rotations - Internal Medicine and Surgery",
+        "city": "Shanghai",
+        "position": "Clinical Trainee",
+        "department": "General Medicine",
+        "startDate": "2022-09",
+        "endDate": "2023-06",
+        "description": "Developed structured problem-solving and communication skills through clinical rotations in internal medicine, surgery, and pediatrics. Worked in fast-paced, interdisciplinary teams and gained exposure to complex decision-making under real-world constraints."
+      }
+
+  ],
+  "projectExperience": [
+    {
+      "projectName": "College Student Innovation Research Project",
+      "city": "Shanghai",
+      "position": "Project Leader",
+      "department": "School of Medicine",
+      "startDate": "2022-04",
+      "endDate": "2022-10",
+      "description": "Led a cross-functional team to design an AI-based screening solution for diabetic retinopathy. Defined project scope, coordinated technical development and evaluation, and presented outcomes at the University Innovation Forum, earning an Excellent Project Award."
+    },
+
+    {
+      "projectName": "Published Medical Research Paper",
+      "city": "Shanghai",
+      "position": "First Author",
+      "department": "Endocrinology Research Lab",
+      "startDate": "2021-11",
+      "endDate": "2022-06",
+      "description": "Led data analysis and co-authored a peer-reviewed publication on GLP-1 receptor agonists and insulin resistance. Synthesized findings into a structured paper accepted by the Chinese Journal of Endocrinology."
+    }
+
+  ],
+  "education": [
+    {
+      "schoolName": "Shanghai Medical College",
+      "city": "Shanghai",
+      "degree": "Bachelor of Medicine",
+      "major": "Clinical Medicine",
+      "startDate": "2019-09",
+      "endDate": "2025-06",
+      "description": "Trained in clinical medicine with coursework in Pathology, Pharmacology, and Evidence-Based Medicine. Minored in Finance to gain cross-disciplinary insight into healthcare systems and economic decision-making. GPA: 3.8/4.0"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "skills": [
+    "Medical Research",
+    "Clinical Data Analysis",
+    "Pharmaceutical Sales",
+    "Scientific Writing",
+    "SPSS",
+    "Communication Skills"
+  ],
+  "workExperience": [
+    {
+      "projectName": "Pfizer Pharmaceutical Sales Internship",
+      "city": "Shanghai",
+      "position": "Sales Representative Intern",
+      "department": "Sales and Marketing",
+      "startDate": "2023-07",
+      "endDate": "2023-09",
+      "description": "Assisted in promoting cardiovascular and vaccine products to hospitals and clinics. Conducted competitor analysis and prepared sales reports to support regional strategy."
+    },
+    {
+      "projectName": "McKinsey Life Sciences Consulting Project",
+      "city": "Beijing",
+      "position": "Consulting Intern",
+      "department": "Healthcare and Life Sciences",
+      "startDate": "2023-01",
+      "endDate": "2023-03",
+      "description": "Supported strategy design for a domestic biotech firm entering the oncology market. Conducted policy research, market sizing, and stakeholder interviews."
+    },
+    {
+      "projectName": "Clinical Rotations - Internal Medicine and Surgery",
+      "city": "Shanghai",
+      "position": "Clinical Trainee",
+      "department": "General Medicine",
+      "startDate": "2022-09",
+      "endDate": "2023-06",
+      "description": "Completed clinical rotations in internal medicine, surgery, and pediatrics. Gained hands-on experience in patient assessment, medical documentation, and interdisciplinary teamwork."
+    }
+  ],
+  "projectExperience": [
+    {
+      "projectName": "College Student Innovation Research Project",
+      "city": "Shanghai",
+      "position": "Project Leader",
+      "department": "School of Medicine",
+      "startDate": "2022-04",
+      "endDate": "2022-10",
+      "description": "Led a team of 4 to develop an AI-assisted early screening model for diabetic retinopathy. Presented results at the University Innovation Forum and received Excellent Project Award."
+    },
+    {
+      "projectName": "Published Medical Research Paper",
+      "city": "Shanghai",
+      "position": "First Author",
+      "department": "Endocrinology Research Lab",
+      "startDate": "2021-11",
+      "endDate": "2022-06",
+      "description": "Published a paper in the Chinese Journal of Endocrinology on the effect of GLP-1 receptor agonists on insulin resistance. Responsible for data analysis and manuscript writing."
+    }
+  ],
+  "education": [
+    {
+      "schoolName": "Shanghai Medical College",
+      "city": "Shanghai",
+      "degree": "Bachelor of Medicine",
+      "major": "Clinical Medicine",
+      "startDate": "2019-09",
+      "endDate": "2025-06",
+      "description": "Completed core medical courses including Pathology, Pharmacology, Internal Medicine, Surgery, and Evidence-Based Medicine. Also pursued a minor in Finance. GPA: 3.8/4.0"
+
+    }
+  ]
+}

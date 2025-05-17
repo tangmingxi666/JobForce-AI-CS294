@@ -1,0 +1,76 @@
+
+{
+    "skills": [
+      "Clinical Reasoning",
+      "Medical Research",
+      "Patient Communication",
+      "Evidence-Based Medicine",
+      "Clinical Data Analysis",
+      "Scientific Writing"
+    ],
+
+  "workExperience": [
+    {
+      "projectName": "Pfizer Pharmaceutical Sales Internship",
+      "city": "Shanghai",
+      "position": "Sales Representative Intern",
+      "department": "Sales and Marketing",
+      "startDate": "2023-07",
+      "endDate": "2023-09",
+      "description": "Collaborated closely with physicians and clinical pharmacists to understand real-world treatment practices and medication usage in cardiology and immunology. Gained exposure to clinical trial data and learned to effectively communicate pharmacological mechanisms and indications to healthcare professionals. Developed a deep understanding of physician decision-making and evidence-based prescribing behaviors."
+    },
+    {
+      "projectName": "McKinsey Life Sciences Consulting Project",
+      "city": "Beijing",
+      "position": "Consulting Intern",
+      "department": "Healthcare and Life Sciences",
+      "startDate": "2023-01",
+      "endDate": "2023-03",
+      "description": "Participated in a consulting project for a biotech company focused on oncology therapeutics. Contributed medical insights during policy analysis and treatment landscape reviews. Gained exposure to real-world challenges in cancer care delivery, including patient access, clinical pathways, and the role of physicians in treatment decision-making."
+    },
+
+    {
+      "projectName": "Clinical Rotations - Internal Medicine and Surgery",
+      "city": "Shanghai",
+      "position": "Clinical Trainee",
+      "department": "General Medicine",
+      "startDate": "2022-09",
+      "endDate": "2023-06",
+      "description": "Completed clinical rotations in internal medicine, surgery, and pediatrics. Gained hands-on experience in taking patient histories, writing medical records, and observing clinical procedures. Improved clinical judgment and communication skills through participation in daily ward rounds and interdisciplinary discussions."
+    }
+
+  ],
+  "projectExperience": [
+{
+  "projectName": "College Student Innovation Research Project",
+  "city": "Shanghai",
+  "position": "Project Leader",
+  "department": "School of Medicine",
+  "startDate": "2022-04",
+  "endDate": "2022-10",
+  "description": "Led a team to develop an AI-based screening model for diabetic retinopathy. Presented at the University Innovation Forum and received an Excellent Project Award."
+},
+      {
+        "projectName": "Published Medical Research Paper",
+        "city": "Shanghai",
+        "position": "First Author",
+        "department": "Endocrinology Research Lab",
+        "startDate": "2021-11",
+        "endDate": "2022-06",
+        "description": "First-author publication on GLP-1 receptor agonists and insulin resistance in the Chinese Journal of Endocrinology. Gained experience in clinical data interpretation and evidence-based writing."
+      }
+
+  ],
+  "education": [
+    {
+      "schoolName": "Shanghai Medical College",
+      "city": "Shanghai",
+      "degree": "Bachelor of Medicine",
+      "major": "Clinical Medicine",
+      "startDate": "2019-09",
+      "endDate": "2025-06",
+      "description": "Received systematic training in clinical medicine, with coursework in Pathology, Pharmacology, Internal Medicine, Surgery, and Evidence-Based Medicine. GPA: 3.8/4.0"
+    }
+
+  ]
+}

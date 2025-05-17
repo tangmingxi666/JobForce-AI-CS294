@@ -1,0 +1,10 @@
+{
+  "job_position": {
+    "1": "Frontend Software Engineer",
+    "2": "Data Scientist"
+  },
+  "job_description": {
+    "1": "We are seeking a Frontend Software Engineer to join our team. The ideal candidate should have strong experience with modern JavaScript frameworks (React, Vue, or Angular), HTML5, CSS3, and responsive design. You will be responsible for developing user-facing features, building reusable components, and optimizing applications for maximum speed and scalability. Experience with state management libraries (Redux, MobX), testing frameworks, and CI/CD pipelines is a plus.",
+    "2": "Looking for a Data Scientist to help us extract insights from complex data sets. The ideal candidate should be proficient in Python, SQL, and data visualization tools. You will be responsible for developing machine learning models, conducting statistical analysis, and creating data-driven solutions. Experience with big data technologies (Hadoop, Spark), deep learning frameworks (TensorFlow, PyTorch), and cloud platforms (AWS, GCP) is highly desirable."
+  }
+}

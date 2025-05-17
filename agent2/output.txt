@@ -1,0 +1,50 @@
+---
+
+# Alex Chen
+Location: Shanghai, China
+Email: alex.chen@example.com | Phone: +86 138 0000 0000
+GitHub: github.com/alexchen | LinkedIn: linkedin.com/in/alexchen
+
+---
+
+## Education
+
+**Shanghai University** — *B.Sc. in Statistics*
+*Sep 2019 – Jun 2023*
+- Relevant Coursework: Data Mining, Probability & Statistics, Machine Learning, SQL for Data Science
+
+---
+
+## Experience
+
+**Data Analyst Intern** – ABC Technology Co., Ltd.
+*Jul 2022 – Dec 2022*
+- Conducted customer segmentation analysis using K-Means and PCA on user behavior data
+- Built dashboards in Tableau to monitor key performance indicators (KPIs) for marketing teams
+- Automated weekly report generation with Python and SQL, saving 5+ hours per week
+
+---
+
+## Skills
+
+* **Data Analysis**: Pandas, NumPy, Scikit-learn, Statsmodels
+* **Visualization**: Tableau, Power BI, Matplotlib, Seaborn
+* **Tools**: Excel, Jupyter, Git, VSCode
+* **Product Management**: Experience in data-driven decision making and problem-solving
+
+---
+
+## Projects & Activities
+
+**Sales Forecasting Using Time Series**
+- Built an ARIMA model to forecast product sales for a retail client over a 12-month period
+- Achieved 9% MAPE on test data and provided actionable inventory recommendations (demonstrates ability to drive business outcomes)
+
+**University Data Hackathon – 2nd Place**
+- Analyzed open government datasets to identify trends in urban transportation
+- Proposed data-driven policies and presented findings to a panel of judges (shows user-focused approach)
+
+**Student Data Science Club – Member**
+- Participated in weekly workshops on data visualization and machine learning
+- Collaborated with peers on mini-projects involving Kaggle datasets (demonstrates ability to work collaboratively)
+
